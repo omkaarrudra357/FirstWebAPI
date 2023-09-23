@@ -1,4 +1,4 @@
 ﻿using WebApiClientConsole;
 Console.WriteLine("API Client!");
-EmployeeAPIClient.CallGetAllEmployee().Wait();
+WebApiClientConsole.CallGetAllEmployee().Wait();
 Console.ReadLine();
